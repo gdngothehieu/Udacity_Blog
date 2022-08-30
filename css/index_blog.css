@@ -31,3 +31,42 @@
   .author-box {
     margin: 25px; margin-top: 5px; border: 1px solid black;
   }
+
+  .new-york-picture{
+    min-height: 100%; display: flex;
+  }
+  .blog-post-frame{
+    width:50%; text-align: center;
+
+  }
+  .new-york-frame{
+    width: 50%;
+  }
+
+  .new-york-image{
+    
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .paragraph-styling{
+    display: inline; padding: 5px;
+  }
+
+  .paragraph-html-css-js{
+    display:inline;  text-decoration: underline; margin-right: 5px; color: red
+  }
+
+  .rating-box{ 
+         padding: 30px;
+    margin: 25px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .star-rating{
+    display: inline; padding: 5px;
+  }
+  

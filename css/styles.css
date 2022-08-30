@@ -82,7 +82,7 @@
 }
 
 .data-science-form{
-  border: 1px solid black; padding: 50px;
+  border: 1px solid black; padding: 50px;text-align: center;
 }
 
 .high-card-form{
@@ -95,4 +95,43 @@
   height: 100%;
   border: 1px solid black;
   margin-right:5px;
+}
+
+.big-card{
+  border: 1px solid black; padding: 50px; text-align: center; height: 250px; margin-bottom: 0px;
+}
+
+.read-more-button{
+  color: yellow;
+  background-color: orange;
+  margin-left: 250px ;  margin-right: 250px;
+  border-radius: 25px;
+
+}
+
+.below-container{
+  padding-right: 20px; margin-top:30px
+}
+
+.data-science-card{
+  padding: 5px;
+  width: 20%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.empty-card-space{
+  width: 59%;
+}
+
+.business-dev-card{
+  width: 20%;
+}
+
+.contact-footer{
+  text-align: center; margin-top: 25px;
+}
+
+.upper-container{
+  padding-right: 20px;
 }
