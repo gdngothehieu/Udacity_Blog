@@ -73,8 +73,9 @@
     display: inline; padding: 5px;
   }
   
-  @media only screen and (max-width: 1245px) {
+  @media only screen and (max-width: 1024px) {
     /* For tablets: */
-    .new-york-picture{display: grid; }
-  
+    .new-york-picture{display: grid;  }
+    .new-york-image{min-width: 920px;}
+    .blog-post-frame { min-width: 986px;}
   }
