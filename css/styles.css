@@ -1,6 +1,7 @@
 /* Add a black background color to the top navigation */
 
-@import "index_blog.css";
+@import "blog.css";
+@import "footer.css";
 
 .topnav {
   background-color: #333;
@@ -56,9 +57,8 @@
   width: 100%;
 }
 
-.app-footer { 
-  color: black;
-  text-decoration:none;
+p {
+  color: black
 }
 
 .grid-container {
@@ -83,6 +83,10 @@
 
 .data-science-form{
   border: 1px solid black; padding: 50px;text-align: center;
+  background-image: linear-gradient(white, rgba(0, 0, 0, 0.001)), url("../imgs/homebkg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .high-card-form{
@@ -95,10 +99,17 @@
   height: 100%;
   border: 1px solid black;
   margin-right:5px;
+  
+  
 }
 
 .big-card{
   border: 1px solid black; padding: 50px; text-align: center; height: 250px; margin-bottom: 0px;
+  background-image: linear-gradient(white, rgba(0, 0, 0, 0.1)), url("../imgs/newyork-architecture-3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .read-more-button{
@@ -126,12 +137,33 @@
 
 .business-dev-card{
   width: 20%;
+  background-image: linear-gradient(white, rgba(0, 0, 0, 0.1)), url("../imgs/new-york-architecture.jfif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.contact-footer{
-  text-align: center; margin-top: 25px;
-}
 
 .upper-container{
   padding-right: 20px;
+}
+
+.cloud-developer-card-width{
+  width: 50%;
+}
+
+.cloud-developer-card{
+  margin: 25px; border: 1px solid black;
+  background-image: linear-gradient(white, rgba(0, 0, 0, 0.1)), url("../imgs/west-virginia-3.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ai-machine-learning-card {
+  margin: 25px; border: 1px solid black;
+  background-image: linear-gradient(white, rgba(0, 0, 0, 0.1)), url("../imgs/west-virginia-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
