@@ -23,7 +23,8 @@
   }
 
   .italic-line{
-    font-weight: bold; font-style: italic; display: inline; color: purple
+     display: inline; color: purple;
+    
   }
   .description-box{
     padding: 30px; margin: 25px; border: 1px solid black;
@@ -56,7 +57,7 @@
   }
 
   .paragraph-html-css-js{
-    display:inline;  text-decoration: underline; margin-right: 5px; color: red
+    display:inline;   margin-right: 5px; color: red
   }
 
   .rating-box{ 
