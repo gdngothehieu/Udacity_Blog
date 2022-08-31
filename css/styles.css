@@ -75,7 +75,7 @@ p {
   height: 100%;
   border: 1px solid black;
   margin-right:5px;
-  
+
   
 }
 
@@ -143,3 +143,23 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media only screen and (max-width: 1246px) {
+  /* For tablets: */
+  .below-container{width: 100%;}
+  .data-science-form{ width: 100%;}
+  .business-dev-card {width: 100%;}
+  .short-card-form {width: 100%;}
+  .short-card-inside {width: 100%;}
+  .flex-container{
+    display: grid;
+  }
+  .cloud-developer-card-width{width: 100%;}
+  .empty-card-space {width: 0%;}
+  .data-science-card{width: 100%;}
+  .big-card-form {width: 100%;}
+  .ai-machine-learning-card  {width: 100%;}
+  .cloud-developer-card {width: 100%;}
+  .high-card-form {width: 100%;}
+}
+

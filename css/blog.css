@@ -34,7 +34,9 @@
   }
 
   .new-york-picture{
+    
     min-height: 100%; display: flex;
+    
   }
   .blog-post-frame{
     width:50%; text-align: center;
@@ -71,3 +73,8 @@
     display: inline; padding: 5px;
   }
   
+  @media only screen and (max-width: 1245px) {
+    /* For tablets: */
+    .new-york-picture{display: grid; }
+  
+  }
